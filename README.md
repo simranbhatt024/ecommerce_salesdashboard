@@ -1,27 +1,102 @@
-# Sales Dashboard - Power BI
+Sales Dashboard – SQL + Power BI Analytics Project
+📊 Project Overview
 
-## 📊 Project Overview
-This Power BI dashboard provides a comprehensive sales performance analysis for the past three years.
-It helps stakeholders track key metrics, identify trends, and make data-driven decisions for improving sales and profitability.
-## ⚙️ Tools & Technologies
-- Power BI
-- DAX
-- Data Visualisation
+This project presents an end-to-end ecommerce sales analysis using SQL and Power BI.
+The dashboard provides insights into sales performance, profitability, customer behavior, category trends, and payment preferences.
 
-💡 Business Impact
+The project uses relational datasets (orders and details) connected through Order_ID and demonstrates real-world data analysis workflows including SQL joins, aggregations, KPI analysis, and interactive visualizations.
 
-This dashboard helps decision-makers:
+⚙️ Tools & Technologies
+SQL
+MySQL
+Power BI
+DAX
+Excel
+Data Visualization
+🗂️ Dataset Structure
+Orders Table
 
-Track regional and product-level sales performance
+Contains:
 
-Identify high-profit product categories
+Order_ID
+Order_Date
+Customer_Name
+City
+State
+Details Table
 
-Detect declining sales trends early to adjust strategy
-## Files
-- `Sales_Dashboard.pbix` → Editable Power BI file  
-- `Sales_Dashboard.pdf` → Exported dashboard for quick view  
+Contains:
 
-##  Usage
-1. Download the `.pbix` file  
-2. Open it in Power BI Desktop  
-3. Explore the interactive dashboard  
+Order_ID
+Amount
+Profit
+Quantity
+Category
+Sub_Category
+PaymentMode
+🔍 SQL Concepts Used
+JOINS
+GROUP BY
+Aggregation Functions
+ORDER BY
+KPI Calculations
+Business Analysis Queries
+📈 Key Business Insights
+
+The dashboard helps stakeholders:
+
+Track overall revenue and profit performance
+Analyze category-wise sales trends
+Identify top-performing states and customers
+Monitor payment mode preferences
+Evaluate profitability across categories
+Discover business growth opportunities through data insights
+📌 KPI Metrics Included
+Total Revenue
+Total Profit
+Profit Margin
+Average Order Value (AOV)
+Quantity Sold
+Category-wise Revenue
+State-wise Profit Analysis
+Customer Revenue Analysis
+🧠 SQL Analysis Performed
+Revenue by Category
+
+Analyzed category-wise sales contribution using SQL aggregation queries.
+
+Profit by State
+
+Used SQL joins between relational datasets to identify profitable regions.
+
+Customer Analysis
+
+Identified top customers based on revenue generation.
+
+Payment Mode Analysis
+
+Tracked customer payment preferences and order distribution.
+
+📂 Files Included
+Sales_Dashboard.pbix → Editable Power BI dashboard
+Sales_Dashboard.pdf → Dashboard preview/export
+SQL_Queries.sql → SQL analysis queries used in project
+README.md → Project documentation
+🚀 How to Use
+Download the .pbix file
+Open using Power BI Desktop
+Explore interactive visualizations and filters
+Run SQL queries in MySQL Workbench for backend analysis
+🎯 Project Outcome
+
+This project demonstrates:
+
+End-to-end data analysis workflow
+SQL-based relational data analysis
+Business KPI tracking
+Interactive dashboard development
+Data-driven decision-making skills
+👩‍💻 Author
+
+Simran Bhatt
+Aspiring Data Analyst | SQL | Power BI | Python | Business Analytics
